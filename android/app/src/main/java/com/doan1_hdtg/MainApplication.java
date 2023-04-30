@@ -1,4 +1,4 @@
-package com.doan1;
+package com.doan1_hdtg;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

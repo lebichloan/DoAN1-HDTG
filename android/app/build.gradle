@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.doan1"
+    namespace "com.doan1_hdtg"
     defaultConfig {
-        applicationId "com.doan1"
+        applicationId "com.doan1_hdtg"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

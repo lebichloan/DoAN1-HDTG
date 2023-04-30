@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "DoAn1.app"
-               BlueprintName = "DoAn1"
-               ReferencedContainer = "container:DoAn1.xcodeproj">
+               BuildableName = "DoAn1_HDTG.app"
+               BlueprintName = "DoAn1_HDTG"
+               ReferencedContainer = "container:DoAn1_HDTG.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "DoAn1Tests.xctest"
-               BlueprintName = "DoAn1Tests"
-               ReferencedContainer = "container:DoAn1.xcodeproj">
+               BuildableName = "DoAn1_HDTGTests.xctest"
+               BlueprintName = "DoAn1_HDTGTests"
+               ReferencedContainer = "container:DoAn1_HDTG.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DoAn1.app"
-            BlueprintName = "DoAn1"
-            ReferencedContainer = "container:DoAn1.xcodeproj">
+            BuildableName = "DoAn1_HDTG.app"
+            BlueprintName = "DoAn1_HDTG"
+            ReferencedContainer = "container:DoAn1_HDTG.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DoAn1.app"
-            BlueprintName = "DoAn1"
-            ReferencedContainer = "container:DoAn1.xcodeproj">
+            BuildableName = "DoAn1_HDTG.app"
+            BlueprintName = "DoAn1_HDTG"
+            ReferencedContainer = "container:DoAn1_HDTG.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

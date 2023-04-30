@@ -1,4 +1,4 @@
-package com.doan1;
+package com.doan1_hdtg;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "DoAn1";
+    return "DoAn1_HDTG";
   }
 
   /**
