@@ -1,7 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import MainNavigator from './src/navigation/navigation.js'
-import type {PropsWithChildren} from 'react';
 
 function App(): JSX.Element {
   return (
