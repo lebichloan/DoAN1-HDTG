@@ -8,7 +8,7 @@ const deviceHeight = Dimensions.get('window').height;
 function scale(number, string = 'width') {
   let scaleNumber;
 
-  if (string == 'height') {
+  if (string === 'height') {
     scaleNumber = number * (deviceHeight / designHeight);
   } else {
     scaleNumber = number * (deviceWidth / designWidth);

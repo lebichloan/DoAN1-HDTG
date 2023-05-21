@@ -28,7 +28,10 @@ function StackNavigator() {
       screenOptions={{headerShown: false}}>
       <Stack.Screen name="Account" component={Account} />
       <Stack.Screen name="ChangePassword" component={ChangePassword} />
-      <Stack.Screen name="ForgotPassword_Change" component={ForgotPassword_Change} />
+      <Stack.Screen
+        name="ForgotPassword_Change"
+        component={ForgotPassword_Change}
+      />
       <Stack.Screen name="ForgotPassword_OTP" component={ForgotPassword_OTP} />
       <Stack.Screen name="ForgotPassword_SDT" component={ForgotPassword_SDT} />
       <Stack.Screen name="GettingStarted" component={GettingStarted} />

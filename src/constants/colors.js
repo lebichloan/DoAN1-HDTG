@@ -16,15 +16,10 @@ const CUSTOM_COLOR = {
   SelectiveYellow: '#FBBC05',
   Denim: '#0A70BA',
   DustyGray: '#969696',
-  PictonBlue: '#3C8FF0',
   Hurricane: '#888080',
   SilverChalice: '#A3A3A3',
   DodgerBlue: '#4381F9',
-  SilverChalice: '#9D9D9D',
-  Silver: '#C1C1C1',
   ForestGreen: '#26BD23',
-  Scarlet: '#FC3216',
-  Anakiwa: '#B0DEFF',
   Alabaster: '#F9F9F9',
   Manatee: '#8E8E93',
   TropicalBlue: '#CCE5F8',
@@ -34,4 +29,3 @@ const CUSTOM_COLOR = {
 };
 
 export default CUSTOM_COLOR;
-

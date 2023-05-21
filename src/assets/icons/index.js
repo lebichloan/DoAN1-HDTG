@@ -33,7 +33,3 @@ export {default as IC_upload} from '../icons/uploadImage/upload.png';
 
 export {default as IC_choose} from '../icons/choose.png';
 export {default as IC_password} from '../icons/password.png';
-
-
-
-

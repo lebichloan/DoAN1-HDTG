@@ -4,16 +4,13 @@ import CUSTOM_COLOR from '../constants/colors.js';
 import FONT_FAMILY from '../constants/fonts.js';
 
 const Help = props => {
-const {navigation} = props;
-const [status, setStatus] = useState('');
-return (
-    <SafeAreaView style={styles.container}>
-    </SafeAreaView>
-);
+  const {navigation} = props;
+  const [status, setStatus] = useState('');
+  return <SafeAreaView style={styles.container}></SafeAreaView>;
 };
 const styles = StyleSheet.create({
-container: {
+  container: {
     flex: 1,
-},
-}); 
+  },
+});
 export default Help;
