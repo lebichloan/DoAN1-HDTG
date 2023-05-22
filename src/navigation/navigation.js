@@ -24,7 +24,7 @@ const Stack = createNativeStackNavigator();
 function StackNavigator() {
   return (
     <Stack.Navigator
-      initialRouteName="Intro"
+      initialRouteName="Login"
       screenOptions={{headerShown: false}}>
       <Stack.Screen name="Account" component={Account} />
       <Stack.Screen name="ChangePassword" component={ChangePassword} />
