@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   textinputStyle: {
     fontFamily: FONT_FAMILY.Medium,
-    fontSize: 25,
+    fontSize: 18,
     color: CUSTOM_COLOR.Black,
   },
   checkContainer: {

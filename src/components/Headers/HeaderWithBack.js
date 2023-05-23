@@ -14,14 +14,11 @@ const HeaderWithBack = props => {
 const styles = StyleSheet.create({
   header: {
     width: '100%',
-    height: '7%',
-    justifyContent: 'center',
+    height: '100%',
   },
   buttonContainer: {
-    width: '12%',
-    height: '100%',
-    top: '15%',
-    left: '8%',
+    flex: 1,
+    marginLeft: '7%',
   },
 });
 export default HeaderWithBack;

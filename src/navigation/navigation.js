@@ -4,8 +4,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Account from '../screens/Account';
 import ChangePassword from '../screens/ChangePassword';
 import ForgotPassword_Change from '../screens/ForgotPassword_Change';
-import ForgotPassword_OTP from '../screens/ForgotPassword_OTP';
-import ForgotPassword_SDT from '../screens/ForgotPassword_SDT';
+import ForgotPassword_Succeed from '../screens/ForgotPassword_Succeed';
+import ForgotPassword_Email from '../screens/ForgotPassword_Email';
 import GettingStarted from '../screens/GettingStarted';
 import Help from '../screens/Help';
 import History from '../screens/History';
@@ -24,7 +24,7 @@ const Stack = createNativeStackNavigator();
 function StackNavigator() {
   return (
     <Stack.Navigator
-      initialRouteName="Login"
+      initialRouteName="ForgotPassword_Succeed"
       screenOptions={{headerShown: false}}>
       <Stack.Screen name="Account" component={Account} />
       <Stack.Screen name="ChangePassword" component={ChangePassword} />
@@ -32,8 +32,14 @@ function StackNavigator() {
         name="ForgotPassword_Change"
         component={ForgotPassword_Change}
       />
-      <Stack.Screen name="ForgotPassword_OTP" component={ForgotPassword_OTP} />
-      <Stack.Screen name="ForgotPassword_SDT" component={ForgotPassword_SDT} />
+      <Stack.Screen
+        name="ForgotPassword_Succeed"
+        component={ForgotPassword_Succeed}
+      />
+      <Stack.Screen
+        name="ForgotPassword_Email"
+        component={ForgotPassword_Email}
+      />
       <Stack.Screen name="GettingStarted" component={GettingStarted} />
       <Stack.Screen name="Help" component={Help} />
       <Stack.Screen name="History" component={History} />

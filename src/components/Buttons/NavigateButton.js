@@ -5,7 +5,7 @@ import FONT_FAMILY from '../../constants/fonts.js';
 
 class NavigateButton extends React.Component {
   render() {
-    const {navigation} = this.props;
+    // const {navigation} = this.props;
     return (
       <View style={styles.container}>
         <TouchableOpacity style={styles.button} onPress={this.props.onPress}>
@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     backgroundColor: CUSTOM_COLOR.CeruleanBlue,
   },
-
   textButton: {
     fontFamily: FONT_FAMILY.SemiBold,
     fontSize: 20,
