@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Image} from 'react-native';
 import CUSTOM_COLOR from '../constants/colors.js';
@@ -7,7 +6,7 @@ import HeaderWithBack from '../components/Headers/HeaderWithBack.js';
 import NavigateButton from '../components/Buttons/NavigateButton.js';
 import {IMG_succeed} from '../assets/images/index.js';
 
-const ForgotPassword_Succeed = props => {
+const SignUp_Succeed = props => {
   const {navigation} = props;
   const [status, setStatus] = useState('');
   return (
@@ -33,9 +32,11 @@ const ForgotPassword_Succeed = props => {
           {/* <View style={{width: '100%', height: 10}} /> */}
           <View style={styles.unitContainer}>
             <Text style={styles.contentStyle}>
-              Please check your email to get
+              Your account has been activated
             </Text>
-            <Text style={styles.contentStyle}>the link reset password.</Text>
+            <Text style={styles.contentStyle}>
+              Please login to use our service
+            </Text>
           </View>
         </View>
       </>
@@ -99,4 +100,4 @@ const styles = StyleSheet.create({
     marginLeft: '5%',
   },
 });
-export default ForgotPassword_Succeed;
+export default SignUp_Succeed;

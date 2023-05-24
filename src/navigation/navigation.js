@@ -16,6 +16,7 @@ import Intro from '../screens/Intro';
 import Login from '../screens/Login';
 import OpenCamera from '../screens/OpenCamera';
 import Profile from '../screens/Profile';
+import SignUp_Succeed from '../screens/SignUp_Succeed';
 import SignUp from '../screens/SignUp';
 import TakePhoto from '../screens/TakePhoto';
 import Tabs from './tab';
@@ -24,7 +25,7 @@ const Stack = createNativeStackNavigator();
 function StackNavigator() {
   return (
     <Stack.Navigator
-      initialRouteName="ForgotPassword_Succeed"
+      initialRouteName="GettingStarted"
       screenOptions={{headerShown: false}}>
       <Stack.Screen name="Account" component={Account} />
       <Stack.Screen name="ChangePassword" component={ChangePassword} />
@@ -50,6 +51,7 @@ function StackNavigator() {
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="OpenCamera" component={OpenCamera} />
       <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Screen name="SignUp_Succeed" component={SignUp_Succeed} />
       <Stack.Screen name="SignUp" component={SignUp} />
       <Stack.Screen name="TakePhoto" component={TakePhoto} />
       <Stack.Screen name="Tabs" component={Tabs} />

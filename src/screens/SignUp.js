@@ -67,7 +67,7 @@ const SignUp = props => {
         <View style={styles.buttonContainer}>
           <NavigateButton
             text="SIGN UP"
-            onPress={() => navigation.navigate('Home_Question')}
+            onPress={() => navigation.navigate('SignUp_Succeed')}
           />
         </View>
       </>
