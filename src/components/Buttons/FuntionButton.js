@@ -8,7 +8,7 @@ class FuntionButton extends React.Component {
     // const {navigation} = this.props;
     return (
       <View style={styles.container}>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={this.props.onPress}>
           <Text style={styles.textButton}>{this.props.text}</Text>
         </TouchableOpacity>
       </View>
@@ -34,13 +34,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     alignSelf: 'center',
-    backgroundColor: CUSTOM_COLOR.White,
+    backgroundColor: CUSTOM_COLOR.PictonBlue,
   },
 
   textButton: {
     fontFamily: FONT_FAMILY.Bold,
     fontSize: 20,
-    color: CUSTOM_COLOR.CeruleanBlue,
+    color: CUSTOM_COLOR.White,
     fontWeight: 'bold',
   },
 });
