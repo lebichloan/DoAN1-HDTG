@@ -5,7 +5,7 @@ import FONT_FAMILY from '../../constants/fonts.js';
 
 class FuntionButton extends React.Component {
   render() {
-    // const {navigation} = this.props;
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
         <TouchableOpacity style={styles.button} onPress={this.props.onPress}>
