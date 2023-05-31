@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     fontFamily: FONT_FAMILY.Bold,
-    fontSize: 30,
+    fontSize: 25,
     color: CUSTOM_COLOR.Black,
     fontWeight: 'bold',
   },

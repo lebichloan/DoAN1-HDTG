@@ -16,14 +16,16 @@ import Content from '../components/Headers/Content.js';
 import {IC_nextIcon} from '../assets/icons/index.js';
 import NavigateButton from '../components/Buttons/NavigateButton.js';
 
-const newLocal = 'Change password';
 const ChangePassword = props => {
   const {navigation} = props;
   const [status, setStatus] = useState('');
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.headerContainer}>
-        <HeaderLogin onPress={() => navigation.goBack()} title={newLocal} />
+        <HeaderLogin
+          onPress={() => navigation.goBack()}
+          title="Change password"
+        />
       </View>
 
       <>
